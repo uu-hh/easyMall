@@ -11,11 +11,12 @@
 	<packaging>pom</packaging>
 
 	<modules>
-		<module> easymall-coupon</module>
-		<module> easymall-member</module>
-		<module> easymall-order</module>
-		<module> easymall-product</module>
-		<module> easymall-ware</module>
+		<module>easymall-coupon</module>
+		<module>easymall-member</module>
+		<module>easymall-order</module>
+		<module>easymall-product</module>
+		<module>easymall-ware</module>
+		<module>renren-fast</module>
 	</modules>
 
 </project>
