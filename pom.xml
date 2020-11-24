@@ -17,6 +17,7 @@
 		<module>easymall-product</module>
 		<module>easymall-ware</module>
 		<module>renren-fast</module>
+		<module>easymall-common</module>
 	</modules>
 
 </project>
