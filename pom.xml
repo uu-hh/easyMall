@@ -18,6 +18,7 @@
 		<module>easymall-ware</module>
 		<module>renren-fast</module>
 		<module>easymall-common</module>
+		<module>renren-generator</module>
 	</modules>
 
 </project>
