@@ -6,12 +6,12 @@ import org.apache.ibatis.annotations.Mapper;
 
 /**
  * 订单操作历史记录
- * 
+ *
  * @author hh
  * @email ${email}
  * @date 2022-08-18 21:47:47
  */
 @Mapper
 public interface OrderOperateHistoryDao extends BaseMapper<OrderOperateHistoryEntity> {
-	
+
 }

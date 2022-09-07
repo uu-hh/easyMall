@@ -7,8 +7,6 @@ import com.hh.easymall.order.entity.MqMessageEntity;
 import java.util.Map;
 
 /**
- * 
- *
  * @author hh
  * @email ${email}
  * @date 2022-08-18 21:47:47

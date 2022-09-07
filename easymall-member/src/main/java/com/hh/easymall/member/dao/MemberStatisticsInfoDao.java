@@ -6,12 +6,12 @@ import org.apache.ibatis.annotations.Mapper;
 
 /**
  * 会员统计信息
- * 
+ *
  * @author hh
  * @email ${email}
  * @date 2022-08-18 21:39:03
  */
 @Mapper
 public interface MemberStatisticsInfoDao extends BaseMapper<MemberStatisticsInfoEntity> {
-	
+
 }

@@ -6,12 +6,12 @@ import org.apache.ibatis.annotations.Mapper;
 
 /**
  * 库存工作单
- * 
+ *
  * @author hh
  * @email ${email}
  * @date 2022-08-18 21:51:51
  */
 @Mapper
 public interface WareOrderTaskDao extends BaseMapper<WareOrderTaskEntity> {
-	
+
 }

@@ -3,7 +3,7 @@
 
 <mapper namespace="com.hh.easymall.order.dao.MqMessageDao">
 
-	<!-- 可根据自己的需求，是否要使用 -->
+    <!-- 可根据自己的需求，是否要使用 -->
     <resultMap type="com.hh.easymall.order.entity.MqMessageEntity" id="mqMessageMap">
         <result property="messageId" column="message_id"/>
         <result property="content" column="content"/>

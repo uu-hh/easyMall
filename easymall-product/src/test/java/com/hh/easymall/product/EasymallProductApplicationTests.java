@@ -12,15 +12,16 @@ import org.springframework.test.context.junit4.SpringRunner;
 @SpringBootTest
 class EasymallProductApplicationTests {
 
-	@Autowired
-	BrandService brandService;
-	@Test
-	void contextLoads() {
-		BrandEntity brandEntity = new BrandEntity();
-		brandEntity.setDescript("");
-		brandEntity.setName("华为");
-		brandService.save(brandEntity);
-		System.out.println("保存成功");
-	}
+    @Autowired
+    BrandService brandService;
+
+    @Test
+    void contextLoads() {
+        BrandEntity brandEntity = new BrandEntity();
+        brandEntity.setDescript("");
+        brandEntity.setName("华为");
+        brandService.save(brandEntity);
+        System.out.println("保存成功");
+    }
 
 }

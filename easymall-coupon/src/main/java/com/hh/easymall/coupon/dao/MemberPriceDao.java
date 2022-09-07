@@ -6,12 +6,12 @@ import org.apache.ibatis.annotations.Mapper;
 
 /**
  * 商品会员价格
- * 
+ *
  * @author hh
  * @email ${email}
  * @date 2022-08-18 21:26:18
  */
 @Mapper
 public interface MemberPriceDao extends BaseMapper<MemberPriceEntity> {
-	
+
 }

@@ -16,10 +16,7 @@ import com.hh.common.utils.PageUtils;
 import com.hh.common.utils.R;
 
 
-
 /**
- * 
- *
  * @author hh
  * @email ${email}
  * @date 2022-08-18 21:47:47
@@ -35,7 +32,7 @@ public class MqMessageController {
      */
     @RequestMapping("/list")
     //@RequiresPermissions("order:mqmessage:list")
-    public R list(@RequestParam Map<String, Object> params){
+    public R list(@RequestParam Map<String, Object> params) {
         PageUtils page = mqMessageService.queryPage(params);
 
         return R.ok().put("page", page);
@@ -47,8 +44,8 @@ public class MqMessageController {
      */
     @RequestMapping("/info/{messageId}")
     //@RequiresPermissions("order:mqmessage:info")
-    public R info(@PathVariable("messageId") String messageId){
-		MqMessageEntity mqMessage = mqMessageService.getById(messageId);
+    public R info(@PathVariable("messageId") String messageId) {
+        MqMessageEntity mqMessage = mqMessageService.getById(messageId);
 
         return R.ok().put("mqMessage", mqMessage);
     }
@@ -58,8 +55,8 @@ public class MqMessageController {
      */
     @RequestMapping("/save")
     //@RequiresPermissions("order:mqmessage:save")
-    public R save(@RequestBody MqMessageEntity mqMessage){
-		mqMessageService.save(mqMessage);
+    public R save(@RequestBody MqMessageEntity mqMessage) {
+        mqMessageService.save(mqMessage);
 
         return R.ok();
     }
@@ -69,8 +66,8 @@ public class MqMessageController {
      */
     @RequestMapping("/update")
     //@RequiresPermissions("order:mqmessage:update")
-    public R update(@RequestBody MqMessageEntity mqMessage){
-		mqMessageService.updateById(mqMessage);
+    public R update(@RequestBody MqMessageEntity mqMessage) {
+        mqMessageService.updateById(mqMessage);
 
         return R.ok();
     }
@@ -80,8 +77,8 @@ public class MqMessageController {
      */
     @RequestMapping("/delete")
     //@RequiresPermissions("order:mqmessage:delete")
-    public R delete(@RequestBody String[] messageIds){
-		mqMessageService.removeByIds(Arrays.asList(messageIds));
+    public R delete(@RequestBody String[] messageIds) {
+        mqMessageService.removeByIds(Arrays.asList(messageIds));
 
         return R.ok();
     }
